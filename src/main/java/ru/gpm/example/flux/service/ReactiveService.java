@@ -5,10 +5,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 import reactor.util.retry.Retry;
-import ru.gpm.example.flux.model.User;
 import ru.gpm.example.flux.model.Order;
+import ru.gpm.example.flux.model.User;
 import ru.gpm.example.flux.model.UserInfoOrders;
 
 import java.time.Duration;

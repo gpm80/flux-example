@@ -1,0 +1,4 @@
+server:
+  port: 8090
+app:
+  externalHost: http://localhost:8090
